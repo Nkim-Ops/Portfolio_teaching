@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John | Creative Technologist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <div class="logo-placeholder"></div>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="burger" id="burgerMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="container hero-flex">
+        <div class="hero-image">
+          <img src="../assets/portrait.png" alt="John's Portrait" />
+        </div>
+        <div class="hero-content">
+          <h1>Hi, I am John,<br />Creative Technologist</h1>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <a href="#" class="btn-primary">Download Resume</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="recent-section">
+      <div class="container">
+        <div class="recent-header">
+          <h2>Recent posts</h2>
+          <a href="#" class="recent-view-all">View all</a>
+        </div>
+
+        <div class="recent-container">
+          <article class="recent-card">
+            <h3 class="recent-title">Making a design system from scratch</h3>
+            <div class="recent-meta">
+              <span>12 Feb 2020</span>
+              <span class="recent-divider">|</span>
+              <span>Design, Pattern</span>
+            </div>
+            <p class="recent-excerpt">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </article>
+
+          <article class="recent-card">
+            <h3 class="recent-title">Creating pixel perfect icons in Figma</h3>
+            <div class="recent-meta">
+              <span>12 Feb 2020</span>
+              <span class="recent-divider">|</span>
+              <span>Figma, Icon Design</span>
+            </div>
+            <p class="recent-excerpt">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="works-section">
+      <div class="container">
+        <h2 class="works-main-title">Featured works</h2>
+
+        <div class="works-list">
+          <div class="works-card">
+            <div class="works-image">
+              <img src="../assets/works1.png" alt="Designing Dashboards" />
+            </div>
+            <div class="works-info">
+              <h3 class="works-title">Designing Dashboards</h3>
+              <div class="works-meta">
+                <span class="works-year">2020</span>
+                <span class="works-category">Dashboard</span>
+              </div>
+              <p class="works-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+
+          <div class="works-card">
+            <div class="works-image">
+              <img src="../assets/works2.png" alt="Vibrant Portraits" />
+            </div>
+            <div class="works-info">
+              <h3 class="works-title">Vibrant Portraits of 2020</h3>
+              <div class="works-meta">
+                <span class="works-year">2018</span>
+                <span class="works-category">Illustration</span>
+              </div>
+              <p class="works-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+
+          <div class="works-card">
+            <div class="works-image">
+              <img src="../assets/works3.png" alt="Malayalam type" />
+            </div>
+            <div class="works-info">
+              <h3 class="works-title">36 Days of Malayalam type</h3>
+              <div class="works-meta">
+                <span class="works-year">2018</span>
+                <span class="works-category">Typography</span>
+              </div>
+              <p class="works-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="contact-main-title">Contact Me</h2>
+            <div class="contact-form-wrapper">
+                <form action="#" class="contact-form">
+                    <div class="contact-input-group">
+                        <label for="name" class="contact-label">Full Name</label>
+                        <input type="text" id="name" class="contact-input" placeholder="John Doe" required>
+                    </div>
+                    
+                    <div class="contact-input-group">
+                        <label for="email" class="contact-label">Email Address</label>
+                        <input type="email" id="email" class="contact-input" placeholder="john@example.com" required>
+                    </div>
+                    
+                    <div class="contact-input-group">
+                        <label for="message" class="contact-label">Message</label>
+                        <textarea id="message" class="contact-textarea" rows="5" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="contact-submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-socials">
+          <a href="#" class="footer-link"
+            ><img src="../assets/fb.png" alt=""
+          /></a>
+          <a href="#" class="footer-link"><img src="../assets/Group.png" alt=""></i></a>
+          <a href="#" class="footer-link"><img src="../assets/insta.png" alt=""></a>
+          <a href="#" class="footer-link"><img src="../assets/Linkedin.png" alt=""></a>
+        </div>
+        <p class="footer-copyright">Copyright ©2026 All rights reserved</p>
+      </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
